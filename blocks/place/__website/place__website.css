@@ -1,0 +1,6 @@
+.place__website {
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0;
+    align-self: end;
+}
