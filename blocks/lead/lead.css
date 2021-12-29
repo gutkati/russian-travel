@@ -3,3 +3,10 @@
     min-height: 1005px;
     margin: 0 auto;
 }
+
+@media screen and (max-width: 1024px) {
+    .lead {
+        width: 928px;
+        min-height: 962px;
+    }
+}

@@ -3,3 +3,10 @@
     width: 984px;
     min-height: 3392px;
 }
+
+@media screen and (max-width: 1024px) {
+    .places {
+       width: 928px;
+        min-height: 3292px;
+    }
+}

@@ -12,3 +12,12 @@
 .place:last-of-type {
     padding-bottom: 0;
 }
+
+@media screen and (max-width: 1024px) {
+    .place {
+        width: 928px;
+        gap: 48px 32px;
+        grid-template-columns: 440px 456px;
+        justify-content:flex-start;
+    }
+}
