@@ -2,3 +2,9 @@
     width: 690px;
     min-height: 429px;
 }
+
+@media screen and (max-width: 768px) {
+    .intro__section {
+        width: 100%;
+    }
+}

@@ -39,3 +39,9 @@
         min-height: 640px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .cover__item {
+        min-height: 480px;
+    }
+}

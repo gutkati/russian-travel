@@ -16,3 +16,16 @@
         width: 928px;
     }
 }
+
+@media screen and (max-width: 1023px) {
+    .footer {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer {
+        width: 720px;
+    }
+}

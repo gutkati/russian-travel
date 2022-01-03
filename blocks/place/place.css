@@ -15,9 +15,27 @@
 
 @media screen and (max-width: 1024px) {
     .place {
-        width: 928px;
+        width: 100%;
         gap: 48px 32px;
-        grid-template-columns: 440px 456px;
-        justify-content:flex-start;
+        grid-template-columns: minmax(min-content, 440px) minmax(min-content, 456px);
+        justify-content: flex-start;
+    }
+}
+
+/*@media screen and (max-width: 1023px) {
+    .place {
+        width: 100%;
+        grid-template-columns: minmax(min-content, 1fr) minmax(min-content, 1fr);
+        margin: 0 auto;
+    }
+}*/
+
+@media screen and (max-width: 768px) {
+    .place {
+        width: 100%;
+        gap: 48px 28px;
+        grid-template-columns: 340px 352px;
+        justify-content: center;
+        padding-bottom: 73px;
     }
 }
