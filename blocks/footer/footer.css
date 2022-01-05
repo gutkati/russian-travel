@@ -29,3 +29,12 @@
         width: 720px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .footer {
+        max-width: 100%;
+        min-height: 310px;
+        margin: 0;
+        box-sizing: border-box;
+    }
+}

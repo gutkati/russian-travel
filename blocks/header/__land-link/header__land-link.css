@@ -11,3 +11,10 @@
 .header__land-link:last-of-type {
     margin: 0;
 }
+
+@media screen and (max-width: 320px) {
+    .header__land-link {
+        font-size: 18px;
+        line-height: 30px;
+    }
+}

@@ -18,3 +18,25 @@
         height: 340px;
     }
 }
+
+@media screen and (max-width: 767px) {
+    .place__image {
+        width: 288px;
+        height: 288px;
+    }
+}
+
+@media screen and (max-width: 670px) {
+    .place__image {
+        grid-row: 3/4;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .place__image {
+        width: 320px;
+        height: 320px;
+        grid-row: 3/4;
+    }
+}
+
