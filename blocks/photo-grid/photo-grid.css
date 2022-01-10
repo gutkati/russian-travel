@@ -1,6 +1,5 @@
 .photo-grid {
     width: 1184px;
-    min-height: 671px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
@@ -12,14 +11,12 @@
 @media screen and (max-width: 1279px) {
     .photo-grid {
         width: 90%;
-        margin: 0 auto;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .photo-grid {
         width: 928px;
-        min-height: 942px;
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-template-rows: repeat(4, 1fr);
