@@ -13,7 +13,7 @@
 }
 
 @media screen and (max-width: 320px) {
-    .intro__title{
+    .intro__title {
         max-width: 250px;
     }
 }
